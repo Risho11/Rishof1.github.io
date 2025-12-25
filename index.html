@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Risho Faruque – Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Risho Faruque</h1>
+      <p class="tagline">First-year Engineering Science student @ U of T</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about" class="section">
+        <h2>About</h2>
+        <p>
+          I'm a driven first-year Engineering Science student at the University of Toronto with a passion for
+          structural mechanics, product design, and optimization. I'm actively pursuing research opportunities
+          and building my technical portfolio through hands-on projects.
+        </p>
+      </section>
+
+      <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="card">
+          <h3>Lotion Dispenser Prototype</h3>
+          <p>
+            Designed and engineered a prototype lotion dispenser achieving 93% efficiency improvement
+            through iterative optimization and SolidWorks modeling.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Bridge Structural Analysis</h3>
+          <p>
+            Applied structural mechanics principles to analyze beam behavior and optimize bridge designs
+            for maximum load capacity and material efficiency.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>UTAT Lens Barrel Housing</h3>
+          <p>
+            Created SolidWorks assembly design for aerospace lens barrel housing as part of the
+            University of Toronto Aerospace Team.
+          </p>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <h2>Experience</h2>
+
+        <div class="card">
+          <h3>University of Toronto Aerospace Team (UTAT)</h3>
+          <p>Design work on SolidWorks assembly for lens barrel housing components.</p>
+        </div>
+
+        <div class="card">
+          <h3>JSR Homes Realty Inc.</h3>
+          <p>Design assistant and head designer – business card design and CRM development for family real estate firm.</p>
+        </div>
+
+        <div class="card">
+          <h3>DECA Competition</h3>
+          <p>Participated in marketing sector roleplay competitions, advancing to DECA Provincials in Grade 10.</p>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@mail.utoronto.ca">your.email@mail.utoronto.ca</a></p>
+        <p>GitHub: <a href="https://github.com/Rishof1">github.com/Rishof1</a></p>
+        <p>LinkedIn: <a href="#">Add your LinkedIn URL</a></p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Risho Faruque</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
