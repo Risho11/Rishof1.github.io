@@ -74,6 +74,46 @@ a:hover {
   text-decoration: none;
 }
 
+.hero {
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Option 2: Image background */
+  /* background-image: url('your-image.jpg'); */
+  /* background-size: cover; */
+  /* background-position: center; */
+}
+
+.hero-content {
+  text-align:center;
+  color: white;
+} 
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom:1rem
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: white;
+  color: #667eea;
+  border-radius: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hero-button:hover {
+  background: #f0f0f0;
+}
+
 main {
   max-width: 900px;
   margin: 0 auto;
